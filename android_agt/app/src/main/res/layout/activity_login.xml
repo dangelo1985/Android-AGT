@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_login">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="110dp"
+        app:srcCompat="@drawable/agtwhite" />
+
+    <EditText
+        android:id="@+id/login_usuario"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ccc"
+        android:hint="Digite Seu email"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/login_senha"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Digite sua Senha"
+        android:background="#ccc"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/botao_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textColor="#ccc"
+        android:background="@drawable/botao_customizado"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/botao_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:textColor="#ccc"
+        android:background="@drawable/botao_customizado"/>
+
+
+
+</LinearLayout>

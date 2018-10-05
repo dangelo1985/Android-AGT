@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fundo_login"
+            android:text="Agenda"
+            android:textColor="#ccc"
+            android:paddingTop="70dp"/>
+
+        <Button
+            android:id="@+id/menu_usuarios"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fundo_login"
+            android:text="Usuarios"
+            android:textColor="#ccc"
+            android:paddingTop="70dp"/>
+
+        <Button
+            android:id="@+id/menu_pontos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fundo_login"
+            android:text="Pontos"
+            android:textColor="#ccc"
+            android:paddingTop="70dp"/>
+
+        <Button
+            android:id="@+id/menu_rotas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fundo_login"
+            android:text="Rotas"
+            android:textColor="#ccc"
+            android:paddingTop="70dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

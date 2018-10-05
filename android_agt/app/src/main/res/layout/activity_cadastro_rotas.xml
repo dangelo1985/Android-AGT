@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CadastroRotasActivity">
+
+
+        <EditText
+            android:id="@+id/rotas_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o Nome da Rota"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/rotas_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a Latitude"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/rotas_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a Longitude"
+            android:paddingLeft="20dp"/>
+
+
+        <Button
+            android:id="@+id/rotas_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_customizado"
+            android:textColor="#ccc"
+            android:text="Salvar"
+            />
+    </LinearLayout>
+</ScrollView>

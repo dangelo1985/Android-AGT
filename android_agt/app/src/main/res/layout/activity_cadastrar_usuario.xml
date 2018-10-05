@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CadastrarUsuarioActivity">
+
+
+        <EditText
+            android:id="@+id/usuario_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite Seu nome"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/usuario_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu email"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/usuario_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua Senha"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/usuario_confirmaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirme Sua Senha"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"/>
+        <Button
+            android:id="@+id/usuario_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_customizado"
+            android:textColor="#ccc"
+            android:text="Salvar"
+            />
+    </LinearLayout>
+</ScrollView>
